@@ -24,13 +24,15 @@ This repository contains a music recommendation system that uses clustering algo
    ```bash
    git clone https://github.com/yourusername/music-recommendation-system.git
    cd music-recommendation-system
-2. Install the required packages:
-  ```bash
-     pip install -r requirements.txt
-## Usage:
-Ensure the tracks.csv and artists.csv files are in the data directory.
-Run the recommendation script:
-  ```bash
-     python recommend.py
+2. Insall Required Packages
+   ```bash
+   pip install -r requirements.txt
+3. Usage
+   ```bash
+   python recommend.py
 
-3. Follow the prompts to enter song names and receive recommendations.
+## Project Structure
+- recommend.py: Main script to run the music recommendation system.
+- data/: Directory containing the tracks.csv and artists.csv files.
+- requirements.txt: List of required Python packages.
+   
